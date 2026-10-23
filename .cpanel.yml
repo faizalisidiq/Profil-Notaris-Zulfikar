@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/notd6868/public_html/
+    - /bin/cp -R * $DEPLOYPATH
